@@ -2,6 +2,6 @@
 changelog_update = false # disabled for now
 # see https://release-plz.ieni.dev/docs/extra/single-changelog#all-packages for single changelog setup
 git_release_name = "v{{ version }}" # we only want one release for the whole workspace anyways
-git_release_type = "auto" # we release pre-releases often and those should be marked as such
-git_release_latest = false # TODO: can this be detected automatically somehow?
-publish = false # TODO: enable for actual releases
+git_release_type = "auto"           # we release pre-releases often and those should be marked as such
+git_release_latest = false          # TODO: can this be detected automatically somehow?
+publish = false                     # TODO: enable for actual releases
