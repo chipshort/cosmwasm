@@ -25,7 +25,7 @@ pub struct Decimal(#[schemars(with = "String")] Uint128);
 forward_ref_partial_eq!(Decimal, Decimal);
 
 #[derive(Debug, PartialEq, Eq, thiserror::Error)]
-#[error("Decimal range exceeded")]
+#[error("Error: Decimal range exceeded")]
 pub struct DecimalRangeExceeded;
 
 impl Decimal {
