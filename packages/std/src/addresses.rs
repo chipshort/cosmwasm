@@ -348,6 +348,10 @@ fn instantiate2_address_impl(
     Ok(address_data.into())
 }
 
+fn new_function() -> &'static str {
+    "New function added on the 2.2 branch"
+}
+
 /// The "Basic Address" Hash from
 /// https://github.com/cosmos/cosmos-sdk/blob/v0.45.8/docs/architecture/adr-028-public-key-addresses.md
 fn hash(ty: &str, key: &[u8]) -> Vec<u8> {
