@@ -15,7 +15,7 @@ use crate::forward_ref_partial_eq;
 #[non_exhaustive]
 pub struct Event {
     /// The event type. This is renamed to "ty" because "type" is reserved in Rust. This sucks, we know.
-    #[serde(rename = "type")]
+    #[serde(rename = "type_field")]
     pub ty: String,
     /// The attributes to be included in the event.
     ///
