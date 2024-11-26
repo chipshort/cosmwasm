@@ -31,3 +31,4 @@ jobs:
           # check-semver: true # Disabled for now, since it fails for cosmwasm-derive,
           # see https://github.com/chipshort/cosmwasm/actions/runs/11971261256/job/33375701839
           branch-prefix: release-pr
+          base-branch: ${{ github.ref }}
