@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.5.9] - 2024-11-26
+
 ## [1.5.8] - 2024-09-23
 
 ### Fixed
@@ -696,7 +698,8 @@ The CHANGELOG for versions before 1.0.0 was moved to
 
 <!-- next-url -->
 
-[unreleased]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.8...HEAD
+[unreleased]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.9...HEAD
+[1.5.9]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.8...v1.5.9
 [1.5.8]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.7...v1.5.8
 [1.5.7]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.6...v1.5.7
 [1.5.6]: https://github.com/CosmWasm/cosmwasm/compare/v1.5.5...v1.5.6
